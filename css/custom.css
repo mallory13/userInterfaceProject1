@@ -18,7 +18,7 @@ body{
 
 p{
   padding: 2%;
-  color: #7EB8E8;
+  color: #333;
   font-family: 'Oswald', sans-serif;
   text-align: center;
 }
@@ -43,12 +43,22 @@ h1{
 h2{
   font-family: 'Prociono', serif;
   text-align: center;
-  color: #2F46FF;
+  font-size: 3em;
 }
 
 h3{
     font-family: 'PT Sans', sans-serif;
+    font-size: 2.5em;
 }
+
+h4{
+  color: white;
+  font-size: 2em;
+}
+
+
+
+
 
 .item{
   width: auto;
@@ -72,3 +82,83 @@ h3{
   align-content: center;
   font-size: 3em;
 }
+
+
+.purple:hover{
+    background-color: #DD9FFF;
+}
+
+.red:hover{
+    background-color: #FF5E5D;
+}
+
+.blue:hover{
+    background-color: #70BAFF;
+}
+
+a .green:hover{
+    background-color: #A1FF9C;
+}
+
+.orange:hover{
+    background-color: #FF916A;
+}
+
+.gold:hover{
+    background-color: #E8DA73;
+}
+
+/*a:hover{
+  background-color: #DD9FFF;
+}*/
+
+figcaption{
+  text-align: center;
+  font-size: 1.5em;
+  color: #333333;
+}
+
+a.orangeCar:hover{
+  color: #FF916A;
+}
+
+/*a:hover{
+  background-color: grey;
+}*/
+
+
+.purpleHeading{
+  color: #8131E8;
+}
+
+.orangeHeading{
+  color: #FF7814;
+}
+
+.blueHeading{
+  color: #0B68FF;
+}
+
+.goldHeading{
+  color: #B66E0D;
+}
+
+
+
+.redHeading{
+  color: #A10F0F;
+}
+
+
+.greenHeading{
+  color: #3AB658;
+}
+
+.relatedPurple{
+  background-color: #8131E8;
+}
+
+
+/*figcaption:hover{
+  color: orange;
+}*/
